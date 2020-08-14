@@ -77,8 +77,9 @@
             "@php artisan key:generate --ansi"
         ],
         "post-install-cmd": [
-            "php artisan migrate:fresh --seed",
-            "php artisan passport:install"
+            "@php artisan clear-compiled",
+            "@php artisan migrate:fresh --seed",
+            "@php artisan passport:install"
         ]
     }
 }

@@ -39,7 +39,7 @@ class DatabaseSeeder extends Seeder
     {
         // if (env('APP_ENV') === 'local')
         // {
-        $this->call(UsersTableSeeder::class);
+        // $this->call(UsersTableSeeder::class);
 
         $this->call(ModelSeeder::class);
         $this->call(ErasTableSeeder::class);

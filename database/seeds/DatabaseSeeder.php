@@ -27,6 +27,7 @@ use App\SoccerModels\SocialMediaName;
 use App\SoccerModels\PlayerSocialMediaLink;
 use App\SoccerModels\SupportMemberPosition;
 use App\SoccerModels\SupportMemberSocialMediaLink;
+use Illuminate\Support\Facades\Schema;
 
 class DatabaseSeeder extends Seeder
 {
@@ -40,7 +41,7 @@ class DatabaseSeeder extends Seeder
         // if (env('APP_ENV') === 'local')
         // {
         // $this->call(UsersTableSeeder::class);
-
+        Schema::disableForeignKeyConstraints();
         $this->call(ModelSeeder::class);
         $this->call(ErasTableSeeder::class);
         $this->call(PostsTableSeeder::class);

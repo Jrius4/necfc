@@ -39,13 +39,13 @@ class ModelSeeder extends Seeder
     {
         // if(env('APP_ENV') === 'local')
         // {
-        DB::statement('SET FOREIGN_KEY_CHECKS = 0');
-        if (env('DB_CONNECTION') === 'pgsql') {
-            Schema::disableForeignKeyConstraints();
-        } else {
-            Schema::disableForeignKeyConstraints();
-        }
-        Schema::disableForeignKeyConstraints();
+        // DB::statement('SET FOREIGN_KEY_CHECKS = 0');
+        // if (env('DB_CONNECTION') === 'pgsql') {
+        //     Schema::disableForeignKeyConstraints();
+        // } else {
+        //     Schema::disableForeignKeyConstraints();
+        // }
+        // Schema::disableForeignKeyConstraints();
 
 
 

@@ -25,15 +25,18 @@
         "santigarcor/laratrust": "^5.2",
         "spatie/laravel-fractal": "^5.6",
         "unisharp/laravel-ckeditor": "^4.7",
-        "unisharp/laravel-filemanager": "dev-master"
-    },
-    "require-dev": {
+        "unisharp/laravel-filemanager": "dev-master",
         "beyondcode/laravel-dump-server": "^1.0",
         "filp/whoops": "^2.0",
         "fzaninotto/faker": "^1.4",
         "mockery/mockery": "^1.0",
         "nunomaduro/collision": "^2.0",
         "phpunit/phpunit": "^7.5"
+
+        
+    },
+    "require-dev": {
+        
     },
     "config": {
         "optimize-autoloader": true,
@@ -78,7 +81,7 @@
         ],
         "post-install-cmd": [
             "@php artisan clear-compiled",
-            "composer update",
+            
             "@php artisan migrate:fresh --seed",
             "@php artisan passport:install"
         ]

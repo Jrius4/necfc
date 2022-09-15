@@ -7,7 +7,7 @@
                         <div class="uk-width-1-1">
                             <div class="uk-panel">
                                 <div class="footer-logo">
-                                    <a href="javascript:void(0)"><img src="/assets/images/footer-logo-img.png" alt=""><span>POLICE</span>.F.C</a>
+                                    <a href="javascript:void(0)"><img src="/assets/images/footer-logo-img.png" alt=""><span>NEC</span> FOOTBALL CLUB</a>
                                 </div>
                                 <div class="footer-socials">
                                     <div class="social-top">

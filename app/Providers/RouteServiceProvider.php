@@ -9,7 +9,7 @@ use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvi
 
 class RouteServiceProvider extends ServiceProvider
 {
-    /**
+    /**protected $namespace = 'App\Http\Controllers';
      * This namespace is applied to your controller routes.
      *
      * In addition, it is set as the URL generator's root namespace.
@@ -25,11 +25,11 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Route::bind('post', function($slug) {
+        Route::bind('post', function ($slug) {
             return Post::published()->where('slug', $slug)->first();
         });
 
-        Route::bind('era', function($slug) {
+        Route::bind('era', function ($slug) {
             return Era::occured()->where('slug', $slug)->first();
         });
 
@@ -60,8 +60,8 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapWebRoutes()
     {
         Route::middleware('web')
-                ->namespace($this->namespace)
-                ->group(base_path('routes/web.php'));
+            ->namespace($this->namespace)
+            ->group(base_path('routes/web.php'));
     }
 
     /**
@@ -74,8 +74,8 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapApiRoutes()
     {
         Route::prefix('api')
-             ->middleware('api')
-             ->namespace($this->namespace)
-             ->group(base_path('routes/api.php'));
+            ->middleware('api')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/api.php'));
     }
 }

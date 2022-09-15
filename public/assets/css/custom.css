@@ -1,0 +1,8 @@
+.highlight-text{
+    color: white;
+    padding: 0.6rem;
+    background: linear-gradient(90deg, rgba(90,0,4,1) 18%, rgba(200,9,4,1) 63%, rgba(90,18,22,1) 100%)
+}
+.no-img{
+    background:linear-gradient(90deg, rgba(90,0,4,1) 18%, rgba(200,9,4,1) 63%, rgba(90,18,22,1) 100%);
+}

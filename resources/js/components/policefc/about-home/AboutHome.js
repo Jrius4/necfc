@@ -16,8 +16,16 @@ const AboutHome = () => {
                         <div className="va-about-text">
                             <div className="title">About <span>Team</span>
                             </div>
-                            <p>Nam quis purus sed est interdum sagittis sed in leo. Nunc feugiat enim nunc, sit amet placerat erat consectetur in. Cras consequat enim nunc, sit amet venenatis massa volutpat ut. Cras vitae facilisis nulla. </p>
-                            <p>Nulla pharetra lobortis nisl, vitae pretium nunc congue eget. Nunc imperdiet consequat nibh pharetra venenatis. Duis vitae lacinia nibh, et egestas leo. Proin sed mi sit amet dolor rhoncus tristique. Maecenas rhoncus felis vel congue commodo.</p>
+                            <p>NEC Football Club (NEC FC) was formed in the year 2018 with the
+objective of raising the NEC profile and brand in the public domain.
+Football as a sport is a coded form of entertainment that appeals to
+billions of fans globally thus creating loyalties and sense of belonging by
+supporters. </p>
+                            <p>The  formation  of  the  football  club  was  initially  crafted  from  the
+philosophy of having harmonized physical workout sessions amongst the
+staff of NEC for body fitness.  The ideas and ambitions of the members
+grew bigger leading to formation of football team that started playing
+friendly matches with established football clubs within Kampala.</p>
                             <a className="read-more" href="about.html">read more</a>
                         </div>
                     </div>

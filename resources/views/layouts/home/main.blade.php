@@ -8,7 +8,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>NEC FOOTBALL CLUB</title>
     <link rel="stylesheet" href="{{ asset('/static/css/app.css') }}">
-    <link href="{{ asset('/assets/images/favicon.ico') }}" rel="shortcut icon">
+    <link href="{{ asset('/assets/images/logos/logo.png') }}" rel="shortcut icon">
     <link href="{{ asset('/assets/css/akslider.css') }}" rel="stylesheet" />
     <link href="{{ asset('/assets/css/donate.css') }}" rel="stylesheet" />
     <link href="{{ asset('/assets/css/theme.yellow.changed.css') }}" rel="stylesheet" />

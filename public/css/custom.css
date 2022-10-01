@@ -12,12 +12,12 @@ body {
 }
 
 a {
-    color: #333;
+    color: #76ff03;
 }
 
 a:hover {
     text-decoration: none;
- 
+
 }
 
 
@@ -307,7 +307,7 @@ ul.tags li {
 
 ul.tags li a {
     border: 1px solid #e7e7e7;
-    color: #333;
+    color: #76ff03;
     font-size: 13px;
     padding: 5px 8px;
     text-decoration:none;
@@ -350,20 +350,20 @@ ul.social-icons li {
 
 .form-group.required label:after {
   content:" *";
-  color:red;
+  color:#ef6c00;
 }
 
 span.required {
-    color: red;
+    color: #ef6c00;
 }
 nav{
     margin-bottom: 20px;
 }
 .bg-transparent{
     background: #00000000;
-  
+
 }
-/* 
+/*
 header{
    height: 300px;
    width: 100%;

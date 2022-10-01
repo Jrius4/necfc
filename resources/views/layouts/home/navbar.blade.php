@@ -29,7 +29,7 @@
                 <nav style="margin: 0px;" class="tm-navbar uk-navbar" data-uk-sticky="">
                     <div class="uk-container uk-container-center">
                         <a class="tm-logo uk-float-left" href="/">
-                            <img src="/assets/images/logo-img.png" alt="logo" title="logo"> <span>NEC <em>FOOTBALL CLUB</em></span>
+                            <img src="/assets/images/logos/logo.png" alt="logo" title="logo"> <span>NEC <em>FOOTBALL CLUB</em></span>
                         </a>
 
                         <ul class="uk-navbar-nav uk-hidden-small">

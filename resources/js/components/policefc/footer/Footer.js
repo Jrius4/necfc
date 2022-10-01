@@ -2,7 +2,7 @@ import React from 'react';
 import Moment from 'react-moment';
 import {connect} from 'react-redux';
 import PropTypes from "prop-types";
-import footerLogo from '../images/footer-logo-img.png';
+import footerLogo from '../images/logos/logo.png';
 import team1 from '../images/teams/team-ava1.png';
 import team2 from '../images/teams/team-ava2.png';
 import team3 from '../images/teams/team-ava3.png';
@@ -31,7 +31,7 @@ class Footer extends React.Component{
         <div className="tm-bottom-f-box  ">
             <div className="uk-container uk-container-center">
                 <section id="tm-bottom-f" className="tm-bottom-f uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin="">
-    
+
                     <div className="uk-width-1-1">
                         <div className="uk-panel">
                             <div className="footer-logo">
@@ -49,7 +49,7 @@ class Footer extends React.Component{
                                 </div>
                             </div>
                             <div className="clear"></div>
-    
+
                             <p className="footer-about-text">
                                 Cras convallis feugiat felis eget venenatis. Sed leo tellus, luctus eget ante quis, rutrum dignissim enim. Morbi efficitur tellus non mauris tincidunt feugiat. Vestibulum quis nunc in nibh eleifend convallis. Vestibulum nec viverra dui. Suspendisse vel neque eros. Donec tincidunt tempus massa sed vehicula. Integer ullamcorper at elit eu commodo.
                             </p>
@@ -58,11 +58,11 @@ class Footer extends React.Component{
                 </section>
             </div>
         </div>
-    
+
         <div className="tm-bottom-g-box  ">
             <div className="uk-container uk-container-center">
                 <section id="tm-bottom-g" className="tm-bottom-f uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin="">
-    
+
                     <div className="uk-width-1-1 uk-width-large-1-2">
                         <div className="uk-panel">
                             <div className="match-list-wrap foot">
@@ -91,7 +91,7 @@ class Footer extends React.Component{
                                                     <div className="team-name">
                                                         Arua F.C {item.id}</div>
                                                     <div className="versus">VS</div>
-    
+
                                                     <div className="team-name">
                                                         Police F.C </div>
                                                     <div className="logo">
@@ -117,7 +117,7 @@ class Footer extends React.Component{
                                                     <div className="team-name">
                                                         England </div>
                                                     <div className="versus">VS</div>
-    
+
                                                     <div className="team-name">
                                                         Amsterdam </div>
                                                     <div className="logo">
@@ -129,7 +129,7 @@ class Footer extends React.Component{
                                                 </div>
                                             </div>
                                         </li>
-    
+
                                         <li className="" aria-hidden="true">
                                             <div className="match-list-item alt foot">
                                                 <div className="wrapper">
@@ -141,7 +141,7 @@ class Footer extends React.Component{
                                                     <div className="team-name">
                                                         Cambridgehire </div>
                                                     <div className="versus">VS</div>
-    
+
                                                     <div className="team-name">
                                                         china </div>
                                                     <div className="logo">
@@ -164,7 +164,7 @@ class Footer extends React.Component{
                                                     <div className="team-name">
                                                         Cambridgehire </div>
                                                     <div className="versus">VS</div>
-    
+
                                                     <div className="team-name">
                                                         china </div>
                                                     <div className="logo">
@@ -187,7 +187,7 @@ class Footer extends React.Component{
                                                     <div className="team-name">
                                                         England </div>
                                                     <div className="versus">VS</div>
-    
+
                                                     <div className="team-name">
                                                         Amsterdam </div>
                                                     <div className="logo">
@@ -210,7 +210,7 @@ class Footer extends React.Component{
                                                     <div className="team-name">
                                                         Cambridgehire </div>
                                                     <div className="versus">VS</div>
-    
+
                                                     <div className="team-name">
                                                         china </div>
                                                     <div className="logo">
@@ -233,7 +233,7 @@ class Footer extends React.Component{
                                                     <div className="team-name">
                                                         King </div>
                                                     <div className="versus">VS</div>
-    
+
                                                     <div className="team-name">
                                                         china </div>
                                                     <div className="logo">
@@ -256,7 +256,7 @@ class Footer extends React.Component{
                                                     <div className="team-name">
                                                         England </div>
                                                     <div className="versus">VS</div>
-    
+
                                                     <div className="team-name">
                                                         Amsterdam </div>
                                                     <div className="logo">
@@ -279,7 +279,7 @@ class Footer extends React.Component{
                                                     <div className="team-name">
                                                         Cambridgehire </div>
                                                     <div className="versus">VS</div>
-    
+
                                                     <div className="team-name">
                                                         china </div>
                                                     <div className="logo">
@@ -293,14 +293,14 @@ class Footer extends React.Component{
                                         </li>
                                     </ul>
                                 </div>
-    
-    
-    
-    
+
+
+
+
                             </div>
                         </div>
                     </div>
-    
+
                     <div className="uk-width-1-1 uk-width-large-1-2">
                         <div  className="uk-panel">
                             <div className="acymailing_module" id="acymailing_module_formAcymailing54111">
@@ -321,7 +321,7 @@ class Footer extends React.Component{
                                                         </td>
                                                     </tr>
                                                     <tr>
-    
+
                                                         <td className="acysubbuttons">
                                                             <span className="submit-wrap">
                                                                 <span className="submit-wrapper">
@@ -341,10 +341,10 @@ class Footer extends React.Component{
                 </section>
             </div>
         </div>
-    
+
         <footer id="tm-footer" className="tm-footer">
-    
-    
+
+
             <div className="uk-panel">
                 <div className="uk-container uk-container-center">
                     <div className="uk-grid">
@@ -372,7 +372,7 @@ class Footer extends React.Component{
                 </div>
             </div>
         </footer>
-    
+
     </div>
       )
   }
@@ -386,6 +386,6 @@ Footer.propTypes = {
   const mapStateToProps = state =>({
     match:state.match,
     post:state.post,
-  })  
+  })
 
 export default connect(mapStateToProps,{getMatches,getPost})(Footer)
